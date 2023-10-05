@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> SPORT CENTER  </title>
+<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 align="center" ><font color="lightblue"> Sport Center </font></h1>
+<h2><font color="blue"> Cadastro: </font> </h2>
+<table  width="800"  align="center" >
+<tr><td>
+<fieldset>
+<legend><font color="blue">Informe seus dados:</font> </legend>
+<form  action=""method="post">
+<table  border="1">
+<tr></tr>
+<label> Nome: </label>
+<input type="text" id="nome" name="nome" size="30" maxlength="" placeholder="Digite seu Nome Completo" required/>
+<br/><br/>
+<label> E-mail: </label>
+<input type="email" id="mail" size="30"
+maxlength="" placeholder="Digite seu E-mail" required />
+<br/><br/>
+<label> Senha </label>
+<input type="password" id="senha" name="senha" maxlength="8" placeholder="Digite sua senha" required/>
+<br></br>
+<label> Sexo </label>
+</br>
+<input type="radio" id="sexo" name="sexo" value="Masculino" required/>
+<label> Masculino </label>
+<br/>
+<input type="radio" id="sexo" name="sexo" value="Feminino" required/>
+<label> Feminino </label>
+<br/><br/>
+<label> Estado </label>
+<select id="estado" name="estado" required>
+<option value="" selected="select"> -- Selecione -- </option>
+<option value="MG"> Minas Gerais </option>
+<option value="SP"> São Paulo </option>
+<option value="RJ"> Rio de Janeiro </option>
+<option value="MT"> Mato Grosso </option>
+<option value="BA"> Bahia </option>
+<option value="PR"> Paraná </option>
+<option value="AC"> Acre </option>
+<option value="AL"> Alagoas </option>
+<option value="AP"> Amapá </option>
+<option value="AM"> Amazonas </option>
+<option value="CE"> Ceará </option>
+<option value="ES"> Espírito Santo </option>
+<option value="GO"> Goiás </option>
+<option value="MA"> Maranhão </option>
+<option value="MS"> Mato Grosso do Sul </option>
+<option value="PB"> Paraíba </option>
+<option value="AL"> Alagoas </option>
+<option value="PA"> Pará </option>
+<option value="PE"> Pernambuco </option>
+<option value="PI"> Piauí </option>
+<option value="ES"> Espírito Santo </option>
+<option value="GO"> Goiás </option>
+<option value="RN"> Rio Grande do Norte </option>
+<option value="RS"> Rio Grande do Sul </option>
+<option value="RO"> Rondônia </option>
+<option value="RR"> Roraima </option>
+<option value="SC"> Santa Catarina </option>
+<option value="SE"> Sergipe </option>
+<option value="TO"> Tocantins </option>
+<option value="DF"> Distrito Federal </option>
+</table>
+</fieldset>
+<br/><br/>
+</td>
+</tr>
+</td>
+<table width="800"  align="center">
+<tr><td>
+<fieldset>
+<legend> <font color="blue"> Informe suas preferencias:</font> </legend>
+<form>
+<table border="1">
+<tr></tr>
+<label> Esporte :  </label >
+
+<br></br>
+<label>
+<input type="checkbox" id="Futebol" name="Futebol" value="Futebol" /> Futebol
+</label>
+<label>
+<input type="checkbox" id="Basquete" name="Basquete" value="Basquete"  /> Basquete
+</label>
+<label>
+<input type="checkbox" id="Volei" name="Volei" value="Volei" /> Volei
+</label>
+<label>
+<input type="checkbox" id="Tenis" name="Tenis" value="Tenis" /> Tenis
+</label>
+<br/><br/>
+<label> Marcas: </label>
+<br></br>
+<label>
+<input type="checkbox" id="Nike" name="Nike" value="Nike" /> Nike
+</label>
+<label>
+<input type="checkbox" id="Adidas" name="Adidas" value="Adidas"/> Adidas
+</label>
+<label>
+<input type="checkbox" id="Umbro" name="Umbro" value="Umbro"/> Umbro
+</label>
+<label>
+<input type="checkbox" id="Puma" name="Puma" value="Puma"/> Puma
+</label>
+<br/><br/>
+<label> Preferencia de Cor: </label>
+<br></br>
+<input type="color" id="cor" name="cor" required/>
+<br></br>
+<th colspan="2">
+<input type="submit" id="enviar" name="enviar" value="ENVIAR DADOS"/>
+<input type="reset" id="limpar" name="limpar" value="LIMPAR"/></th>
+</form>
+</fieldset>
+</table>
+<td></tr>
+</body>
+</html>
